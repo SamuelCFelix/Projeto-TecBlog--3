@@ -1,0 +1,137 @@
+/*******Config Padrão*******/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+hr{
+    margin-top: 10px;
+}
+
+#clear{
+    clear: both;
+}
+
+
+/*******Config Links*******/
+a{
+    text-decoration: none;
+    color: #f7b600;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#links-cabecalho a:link, #links-cabecalho a:visited {
+text-decoration: none;
+color: white;
+font-size: 1.4em;
+margin: 10px;
+padding: 8px;
+}
+
+#links-cabecalho a:hover{
+    color: #f7b600;
+    background-color: white;
+}
+
+
+/*******Cabeçalho do Site*******/
+#area-topo{
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#area-topo h2{
+    color: rgb(68, 62, 62);
+    font-size: 3.0em;
+    margin: 15px;
+}
+
+#links-cabecalho{
+    margin: 25px;
+}
+.branco{
+    color: white;
+
+}
+
+
+/********Conteúdo do Site*******/
+#conteudo-site{
+ background-color: white;
+ width: 800px;
+ margin: 10px auto;
+ float: left;
+ position: relative;
+ left: 180px;
+}
+.postagem{
+    margin: 10px;
+    padding: 10px;
+}
+#conteudo-site h1{
+    color: #f7b600;
+    margin-bottom: 10px;
+}
+.subtitulo{
+    margin: 10px 0px;
+    font-size: 0.9em;
+}
+.margem{
+    margin-bottom: 10px;
+}
+
+
+/********Conteúdo Lateral*******/
+#post-flutuante{
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    width: 260px;
+    float: right;
+    position: relative;
+    right: 170px;
+}
+#post-flutuante2{
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    width: 260px;
+    float: right;
+    position: relative;
+    left: 92px;
+    top: 210px;
+}
+#post-flutuante2 a{
+    display: block;
+    font-size: 1.2em;
+}
+
+#poste-lateral{
+    padding: 10px;
+}
+
+h3{
+    background-color: rgb(127, 123, 123);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+/********Rodapé*******/
+#rodape{
+    background-color: #f7b600;
+    color: rgb(68, 62, 62);
+    margin-top: 10px;
+    text-align: center;
+    padding: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
